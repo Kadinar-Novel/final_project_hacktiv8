@@ -53,7 +53,7 @@ componentDidMount(){
                     <ul className="contain">
                         {this.state.people.map(p => 
                         <li className="li-jeda">{p.judul_pic}<br/>
-                        <img src={`http://localhost/my-web-react/backend/pages/images/${p.pic}`} width="200px" />                    
+                        <img src={`http://localhost/my-web-react/backend/pages/images/${p.pic}`} />                    
                         </li>)}
                     </ul>
                 </div>
